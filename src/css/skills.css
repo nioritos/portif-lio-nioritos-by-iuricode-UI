@@ -1,0 +1,42 @@
+#skills {
+    margin-top: 10rem;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.elements-skills {
+    width: 90vw;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hyper-skills {
+    width: 160px;
+    height: 160px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--background-icon-social);
+    border: 1px solid rgba(128, 128, 128, 0.322);
+    
+    margin: 1rem; 
+}
+
+.icon-skill {
+    max-width: 78px;
+    width: 78px;
+
+    padding: 0;
+    margin: 0;
+}
