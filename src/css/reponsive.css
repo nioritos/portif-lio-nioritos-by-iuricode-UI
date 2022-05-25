@@ -1,10 +1,18 @@
 @media (max-width: 900px) {
+    .header {
+        position: initial;
+    }
+    
     #home {
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
 
         margin-bottom: 5rem;
+    }
+
+    .img-home{ 
+        width: 50%;
     }
         
     .list-socials  {

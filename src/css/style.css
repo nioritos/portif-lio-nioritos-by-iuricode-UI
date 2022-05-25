@@ -8,6 +8,7 @@
 }
 
 .text-home {
+    max-width: 29rem;
     margin-top: var(--margin-top-home);
     display: flex;
     flex-direction: column;
